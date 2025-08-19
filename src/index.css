@@ -1,0 +1,61 @@
+/* Import das fonts do Google - PRECISA VIR PRIMEIRO */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/* Reset básico para evitar conflitos */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos globais mínimos */
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #121212; /* Cor de fundo padrão escura */
+  color: #e0e0e0; /* Cor de texto padrão */
+  font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fonte padrão atualizada */
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Garante que imagens e embeds sejam responsivos */
+img, embed, object, video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Remove estilos padrão de lista */
+ul, ol {
+  list-style: none;
+}
+
+/* Remove estilos padrão de links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Remove estilos de foco padrão (você pode personalizar depois) */
+:focus {
+  outline: none;
+}
+
+/* Classes utilitárias mínimas */
+.hidden {
+  display: none !important;
+}

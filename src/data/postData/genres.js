@@ -1,0 +1,22 @@
+export const genres = [
+  "RPG", 
+  "Soulslike", 
+  "Indie", 
+  "FPS", 
+  "Narrativo", 
+  "Roguelike", 
+  "Aventura", 
+  "Estratégia", 
+  "Esportes", 
+  "Luta",
+  "Ação-Aventura",     
+  "Mundo Aberto",      
+  "Fantasia",          
+  "Mitologia",         
+  "Family Friendly",   
+  "Plataforma",        
+  "Tiro",             
+  "Cooperativo",       
+  "Exclusivo",         
+  "Remaster"           
+];
